@@ -1,12 +1,12 @@
 import React from "react";
-
+import './globals.css'
 import Link from "next/link";
 import Navbar from "./navbar/navbar";
 const LandingPage = () => {
   return (
     <div>
       <Navbar/>
-    <div className="bg-gradient-to-r flex-col from-blue-400 to-purple-600 min-h-screen flex items-center relative">
+      <div className="bg-gradient-to-r flex-col from-blue-400 to-purple-600 min-h-screen flex items-center relative">
       
       <div className="container mx-auto text-center p-8">
         <h1 className="text-4xl text-white font-semibold">Welcome to KnowledgePool</h1>
