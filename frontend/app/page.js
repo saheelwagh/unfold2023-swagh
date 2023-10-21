@@ -47,7 +47,7 @@ const HomePage = () => {
           href="/shop" // Replace with the actual link to your shop page
           className="bg-white text-blue-500 py-2 px-4 rounded-full text-lg font-semibold transition duration-300 hover:bg-blue-500 hover:text-white"
         >
-          Start Shopping
+          Learn More
         </a>
       </header>
       <section className="mt-12">
