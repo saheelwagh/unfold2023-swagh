@@ -16,7 +16,7 @@ const items = [
     productLink: '/product/item2', // Replace with the actual product details page link
   },
   {
-    item_name: 'Item 3',
+    item_name: 'Ethereum Masterclass',
     price: '$39.99 or 100 SUI',
     image: 'https://unsplash.com/photos/vBCVcWUyvyM/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjk3ODU1NDI3fA&force=true&w=1920',
     productLink: '/product/item2', // Replace with the actual product details page link
@@ -47,7 +47,7 @@ const HomePage = () => {
           href="/shop" // Replace with the actual link to your shop page
           className="bg-white text-blue-500 py-2 px-4 rounded-full text-lg font-semibold transition duration-300 hover:bg-blue-500 hover:text-white"
         >
-          Learn More
+          Learn More 
         </a>
       </header>
       <section className="mt-12">
