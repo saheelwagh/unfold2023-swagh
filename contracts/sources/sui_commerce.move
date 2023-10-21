@@ -1,4 +1,4 @@
-module suicommerce::suicommerce {
+module suiroad::suiroad {
     // module contents
     use std::string;
     use sui::object::{Self, UID};
