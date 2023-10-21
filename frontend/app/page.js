@@ -1,40 +1,24 @@
-// pages/index.js
 
-import Link from 'next/link'; // Import the Link component from Next.js
+import Link from 'next/link'; 
 import Head from 'next/head';
-// import { StrictMode, useState } from "react";
-// import { createRoot } from "react-dom/client";
-// import { WalletProvider, useSuiProvider } from "@suiet/wallet-kit";
 
-// const ConnectWalletButton = () => {
-//   const [isWalletConnected, setIsWalletConnected] = useState(false);
-//   const { connectWallet } = useSuiProivder();
-
-//   const handleConnectWallet = async () => {
-//     const wallet = await connectWallet();
-
-//     if (wallet) {
-//       setIsWalletConnected(true);
-//     }
-//   };
-// }
 const items = [
   {
-    item_name: 'Item 1',
-    price: '$19.99',
-    image: '/placeholder-image-1.jpg',
+    item_name: 'Blockchain 101',
+    price: '$19.99 or 50 SUI',
+    image: 'https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80&w=1932&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     productLink: '/product/item1', // Replace with the actual product details page link
   },
   {
     item_name: 'Item 2',
-    price: '$29.99',
-    image: '/placeholder-image-2.jpg',
+    price: '$29.99 or 75 SUI',
+    image: "../public/blockchain2.jpg",
     productLink: '/product/item2', // Replace with the actual product details page link
   },
   {
     item_name: 'Item 3',
-    price: '$39.99',
-    image: '/placeholder-image-2.jpg',
+    price: '$39.99 or 100 SUI',
+    image: 'https://unsplash.com/photos/vBCVcWUyvyM/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjk3ODU1NDI3fA&force=true&w=1920',
     productLink: '/product/item2', // Replace with the actual product details page link
   },
   // Add more items here
