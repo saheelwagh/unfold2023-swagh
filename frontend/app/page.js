@@ -45,7 +45,7 @@ const HomePage = () => {
     <div>
       <nav className=" p-4">
           <div className="container mx-auto flex justify-between items-center">
-            <h1 className="text-xl font-semibold">Suicommerce</h1>
+            <h1 className="text-xl font-semibold">Suiroad</h1>
             <Link href="/login">
               <div className="bg-orange-500 text-white py-2 px-4 rounded-full text-lg font-semibold transition duration-300 hover:bg-orange-500 hover:text-white">
                 Log In
@@ -57,7 +57,7 @@ const HomePage = () => {
       
       <header>
         
-        <h1 className="text-4xl font-extrabold mb-4">Welcome to Suicommerce</h1>
+        <h1 className="text-4xl font-extrabold mb-4">Welcome to Suiroad</h1>
         <p className="text-lg mb-6">Your one-stop shop for all things e-commerce!</p>
         <a
           href="/shop" // Replace with the actual link to your shop page
