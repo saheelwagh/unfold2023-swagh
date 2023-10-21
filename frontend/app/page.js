@@ -10,9 +10,9 @@ const items = [
     productLink: '/product/item1', // Replace with the actual product details page link
   },
   {
-    item_name: 'Item 2',
+    item_name: 'Build a DEFI in 4 hourse',
     price: '$29.99 or 75 SUI',
-    image: "../public/blockchain2.jpg",
+    image: "https://images.unsplash.com/photo-1559445368-b8a993676d7a?auto=format&fit=crop&q=80&w=1931&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     productLink: '/product/item2', // Replace with the actual product details page link
   },
   {
@@ -31,8 +31,8 @@ const HomePage = () => {
           <div className="container mx-auto flex justify-between items-center">
             <h1 className="text-xl font-semibold">Suiroad</h1>
             <Link href="/login">
-              <div className="bg-orange-500 text-white py-2 px-4 rounded-full text-lg font-semibold transition duration-300 hover:bg-orange-500 hover:text-white">
-                Log In
+              <div className="bg-blue-500 text-white py-2 px-4 rounded-full text-lg font-semibold transition duration-300 hover:bg-orange-500 hover:text-white">
+                Connect SUI Wallet
               </div>
             </Link>
           </div>
@@ -42,7 +42,7 @@ const HomePage = () => {
       <header>
         
         <h1 className="text-4xl font-extrabold mb-4">Welcome to Suiroad</h1>
-        <p className="text-lg mb-6">Your one-stop shop for all things e-commerce!</p>
+        <p className="text-lg mb-6">Sell What you know, keep what you earn</p>
         <a
           href="/shop" // Replace with the actual link to your shop page
           className="bg-white text-blue-500 py-2 px-4 rounded-full text-lg font-semibold transition duration-300 hover:bg-blue-500 hover:text-white"
